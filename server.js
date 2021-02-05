@@ -14,12 +14,6 @@ app.get('/', (req, res) => {
   res.render('index');
 });
 
-app.get('/profile', (req, res) => {
-  res.render('profile');
-});
-
-app.use('/auth', require('./routes/auth'));
-
 
 const PORT = process.env.PORT || 3000;
 const server = app.listen(PORT, () => {
