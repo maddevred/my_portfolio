@@ -1,4 +1,4 @@
-# App for HZ Frequencies
+# Personal Portfolio Website
 
 This is an express application to host my portfolio website. 
 <br>

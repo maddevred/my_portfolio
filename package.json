@@ -2,13 +2,13 @@
   "name": "express-authentication",
   "version": "1.0.0",
   "description": "This is express authentication",
-  "main": "server.js",
+  "main": "app.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
     "test": "mocha",
-    "start": "node server.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
