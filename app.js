@@ -16,6 +16,10 @@ app.get('/', (req, res) => {
 
 
 // const PORT = process.env.PORT || 3000;
+// const server = app.listen(3000, () => {
+//   console.log(` welcome to my portfolio :))) `);
+// });
+
 const server = app.listen(3000, () => {
   console.log(` welcome to my portfolio :))) `);
 });
