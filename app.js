@@ -23,5 +23,6 @@ app.get('/', (req, res) => {
 const server = app.listen(3000, () => {
   console.log(` welcome to my portfolio :))) `);
 });
+const port = app.listen(process.env.PORT, '0.0.0.0');
 
 module.exports = app;
